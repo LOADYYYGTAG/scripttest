@@ -591,7 +591,7 @@ UICorner_26.Parent = TextButton_18
 
 -- Scripts:
 
-local function HWSUOCS_fake_script() -- UIGradient.GradientHandler 
+local function KBTRVYV_fake_script() -- UIGradient.GradientHandler 
 	local script = Instance.new('LocalScript', UIGradient)
 
 	while wait(0.01) do
@@ -601,8 +601,8 @@ local function HWSUOCS_fake_script() -- UIGradient.GradientHandler
 		end
 	end
 end
-coroutine.wrap(HWSUOCS_fake_script)()
-local function WGPI_fake_script() -- UIGradient_2.GradientHandler 
+coroutine.wrap(KBTRVYV_fake_script)()
+local function BILZPS_fake_script() -- UIGradient_2.GradientHandler 
 	local script = Instance.new('LocalScript', UIGradient_2)
 
 	while wait(0.01) do
@@ -612,8 +612,8 @@ local function WGPI_fake_script() -- UIGradient_2.GradientHandler
 		end
 	end
 end
-coroutine.wrap(WGPI_fake_script)()
-local function RGTZQ_fake_script() -- Page1.LocalScript 
+coroutine.wrap(BILZPS_fake_script)()
+local function IEAHIUQ_fake_script() -- Page1.LocalScript 
 	local script = Instance.new('LocalScript', Page1)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -624,8 +624,8 @@ local function RGTZQ_fake_script() -- Page1.LocalScript
 		script.Parent.Parent.CurrentPage.Value = "ESP"
 	end)
 end
-coroutine.wrap(RGTZQ_fake_script)()
-local function GIQXF_fake_script() -- Page2.LocalScript 
+coroutine.wrap(IEAHIUQ_fake_script)()
+local function IHZR_fake_script() -- Page2.LocalScript 
 	local script = Instance.new('LocalScript', Page2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -636,8 +636,8 @@ local function GIQXF_fake_script() -- Page2.LocalScript
 		script.Parent.Parent.CurrentPage.Value ="ADVANTAGES"
 	end)
 end
-coroutine.wrap(GIQXF_fake_script)()
-local function TXEKYXU_fake_script() -- Page3.LocalScript 
+coroutine.wrap(IHZR_fake_script)()
+local function MRJJRA_fake_script() -- Page3.LocalScript 
 	local script = Instance.new('LocalScript', Page3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -648,8 +648,8 @@ local function TXEKYXU_fake_script() -- Page3.LocalScript
 		script.Parent.Parent.CurrentPage.Value = "OVERPOWERED"
 	end)
 end
-coroutine.wrap(TXEKYXU_fake_script)()
-local function MZCHQ_fake_script() -- Page4.LocalScript 
+coroutine.wrap(MRJJRA_fake_script)()
+local function HWXTEDH_fake_script() -- Page4.LocalScript 
 	local script = Instance.new('LocalScript', Page4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -660,16 +660,16 @@ local function MZCHQ_fake_script() -- Page4.LocalScript
 		script.Parent.Parent.CurrentPage.Value = "VISUALS"
 	end)
 end
-coroutine.wrap(MZCHQ_fake_script)()
-local function RYXHBB_fake_script() -- CurrentPageLabel.LocalScript 
+coroutine.wrap(HWXTEDH_fake_script)()
+local function RVWYA_fake_script() -- CurrentPageLabel.LocalScript 
 	local script = Instance.new('LocalScript', CurrentPageLabel)
 
 	while wait(0.01) do
 		script.Parent.Text = "Current Page: "..script.Parent.Parent.CurrentPage.Value
 	end
 end
-coroutine.wrap(RYXHBB_fake_script)()
-local function FMEVH_fake_script() -- Gradient.DragScript 
+coroutine.wrap(RVWYA_fake_script)()
+local function VONSDRV_fake_script() -- Gradient.DragScript 
 	local script = Instance.new('LocalScript', Gradient)
 
 	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
@@ -712,8 +712,8 @@ local function FMEVH_fake_script() -- Gradient.DragScript
 	end)
 	
 end
-coroutine.wrap(FMEVH_fake_script)()
-local function LXFOV_fake_script() -- Chams.LocalScript 
+coroutine.wrap(VONSDRV_fake_script)()
+local function NLIF_fake_script() -- Chams.LocalScript 
 	local script = Instance.new('LocalScript', Chams)
 
 	local enabled = false
@@ -741,8 +741,8 @@ local function LXFOV_fake_script() -- Chams.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LXFOV_fake_script)()
-local function JAYX_fake_script() -- HumanoidESP.LocalScript 
+coroutine.wrap(NLIF_fake_script)()
+local function SLLZIBV_fake_script() -- HumanoidESP.LocalScript 
 	local script = Instance.new('LocalScript', HumanoidESP)
 
 	local enabled = false
@@ -770,8 +770,8 @@ local function JAYX_fake_script() -- HumanoidESP.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JAYX_fake_script)()
-local function CCQEJ_fake_script() -- HeadESP.LocalScript 
+coroutine.wrap(SLLZIBV_fake_script)()
+local function WOBOC_fake_script() -- HeadESP.LocalScript 
 	local script = Instance.new('LocalScript', HeadESP)
 
 	local enabled = false
@@ -799,20 +799,20 @@ local function CCQEJ_fake_script() -- HeadESP.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CCQEJ_fake_script)()
-local function FRMXK_fake_script() -- Test.LocalScript 
+coroutine.wrap(WOBOC_fake_script)()
+local function ANYW_fake_script() -- Test.LocalScript 
 	local script = Instance.new('LocalScript', Test)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		for _, player in ipairs(game.Players:GetPlayers()) do
 			for _, items in ipairs(player.Backpack:GetChildren()) do
-				print(items.Name)
+				print(player.Name, items.Name)
 			end
 		end
 	end)
 end
-coroutine.wrap(FRMXK_fake_script)()
-local function TCOXUQ_fake_script() -- LineESP.LocalScript 
+coroutine.wrap(ANYW_fake_script)()
+local function UIVV_fake_script() -- LineESP.LocalScript 
 	local script = Instance.new('LocalScript', LineESP)
 
 	local enabled = false
@@ -913,8 +913,8 @@ local function TCOXUQ_fake_script() -- LineESP.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TCOXUQ_fake_script)()
-local function URCHU_fake_script() -- Beacons.LocalScript 
+coroutine.wrap(UIVV_fake_script)()
+local function RQISEVZ_fake_script() -- Beacons.LocalScript 
 	local script = Instance.new('LocalScript', Beacons)
 
 	-- LocalScript inside a TextButton
@@ -1014,4 +1014,4 @@ local function URCHU_fake_script() -- Beacons.LocalScript
 	end)
 	
 end
-coroutine.wrap(URCHU_fake_script)()
+coroutine.wrap(RQISEVZ_fake_script)()
