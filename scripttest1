@@ -69,8 +69,6 @@ local TextButton_18 = Instance.new("TextButton")
 local UICorner_25 = Instance.new("UICorner")
 local TextButton_19 = Instance.new("TextButton")
 local UICorner_26 = Instance.new("UICorner")
-local Frame = Instance.new("Frame")
-local ImageButton = Instance.new("ImageButton")
 
 --Properties:
 
@@ -590,25 +588,9 @@ TextButton_19.TextWrapped = true
 
 UICorner_26.Parent = TextButton_19
 
-Frame.Parent = test
-Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0, 0, -0.0910165459, 0)
-Frame.Size = UDim2.new(1, 0, 1.09101653, 0)
-
-ImageButton.Parent = Frame
-ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton.BackgroundTransparency = 1.000
-ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageButton.BorderSizePixel = 0
-ImageButton.Position = UDim2.new(0.268996954, 0, 0.192471623, 0)
-ImageButton.Size = UDim2.new(0, 607, 0, 567)
-ImageButton.Image = "rbxassetid://18172502672"
-
 -- Scripts:
 
-local function GKWLKI_fake_script() -- UIGradient.GradientHandler 
+local function FYCYF_fake_script() -- UIGradient.GradientHandler 
 	local script = Instance.new('LocalScript', UIGradient)
 
 	while wait(0.01) do
@@ -618,8 +600,8 @@ local function GKWLKI_fake_script() -- UIGradient.GradientHandler
 		end
 	end
 end
-coroutine.wrap(GKWLKI_fake_script)()
-local function GEKZ_fake_script() -- UIGradient_2.GradientHandler 
+coroutine.wrap(FYCYF_fake_script)()
+local function AZNS_fake_script() -- UIGradient_2.GradientHandler 
 	local script = Instance.new('LocalScript', UIGradient_2)
 
 	while wait(0.01) do
@@ -629,8 +611,8 @@ local function GEKZ_fake_script() -- UIGradient_2.GradientHandler
 		end
 	end
 end
-coroutine.wrap(GEKZ_fake_script)()
-local function GWFOFPZ_fake_script() -- Page1.LocalScript 
+coroutine.wrap(AZNS_fake_script)()
+local function AMRL_fake_script() -- Page1.LocalScript 
 	local script = Instance.new('LocalScript', Page1)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -641,8 +623,8 @@ local function GWFOFPZ_fake_script() -- Page1.LocalScript
 		script.Parent.Parent.CurrentPage.Value = "ESP"
 	end)
 end
-coroutine.wrap(GWFOFPZ_fake_script)()
-local function BDMQW_fake_script() -- Page2.LocalScript 
+coroutine.wrap(AMRL_fake_script)()
+local function CHBLB_fake_script() -- Page2.LocalScript 
 	local script = Instance.new('LocalScript', Page2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -653,8 +635,8 @@ local function BDMQW_fake_script() -- Page2.LocalScript
 		script.Parent.Parent.CurrentPage.Value ="ADVANTAGES"
 	end)
 end
-coroutine.wrap(BDMQW_fake_script)()
-local function PQPNQQ_fake_script() -- Page3.LocalScript 
+coroutine.wrap(CHBLB_fake_script)()
+local function GTDHU_fake_script() -- Page3.LocalScript 
 	local script = Instance.new('LocalScript', Page3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -665,8 +647,8 @@ local function PQPNQQ_fake_script() -- Page3.LocalScript
 		script.Parent.Parent.CurrentPage.Value = "OVERPOWERED"
 	end)
 end
-coroutine.wrap(PQPNQQ_fake_script)()
-local function AFXKO_fake_script() -- Page4.LocalScript 
+coroutine.wrap(GTDHU_fake_script)()
+local function WYMMZU_fake_script() -- Page4.LocalScript 
 	local script = Instance.new('LocalScript', Page4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -677,16 +659,16 @@ local function AFXKO_fake_script() -- Page4.LocalScript
 		script.Parent.Parent.CurrentPage.Value = "VISUALS"
 	end)
 end
-coroutine.wrap(AFXKO_fake_script)()
-local function IJOX_fake_script() -- CurrentPageLabel.LocalScript 
+coroutine.wrap(WYMMZU_fake_script)()
+local function TGQGACK_fake_script() -- CurrentPageLabel.LocalScript 
 	local script = Instance.new('LocalScript', CurrentPageLabel)
 
 	while wait(0.01) do
 		script.Parent.Text = "Current Page: "..script.Parent.Parent.CurrentPage.Value
 	end
 end
-coroutine.wrap(IJOX_fake_script)()
-local function PGHMAG_fake_script() -- Gradient.DragScript 
+coroutine.wrap(TGQGACK_fake_script)()
+local function RSLPA_fake_script() -- Gradient.DragScript 
 	local script = Instance.new('LocalScript', Gradient)
 
 	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
@@ -729,8 +711,8 @@ local function PGHMAG_fake_script() -- Gradient.DragScript
 	end)
 	
 end
-coroutine.wrap(PGHMAG_fake_script)()
-local function INHHL_fake_script() -- Chams.LocalScript 
+coroutine.wrap(RSLPA_fake_script)()
+local function ZLXBOQ_fake_script() -- Chams.LocalScript 
 	local script = Instance.new('LocalScript', Chams)
 
 	local enabled = false
@@ -758,8 +740,8 @@ local function INHHL_fake_script() -- Chams.LocalScript
 		end
 	end)
 end
-coroutine.wrap(INHHL_fake_script)()
-local function OZLVG_fake_script() -- HumanoidESP.LocalScript 
+coroutine.wrap(ZLXBOQ_fake_script)()
+local function VCZF_fake_script() -- HumanoidESP.LocalScript 
 	local script = Instance.new('LocalScript', HumanoidESP)
 
 	local enabled = false
@@ -787,8 +769,8 @@ local function OZLVG_fake_script() -- HumanoidESP.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OZLVG_fake_script)()
-local function FNXL_fake_script() -- HeadESP.LocalScript 
+coroutine.wrap(VCZF_fake_script)()
+local function KFMBWY_fake_script() -- HeadESP.LocalScript 
 	local script = Instance.new('LocalScript', HeadESP)
 
 	local enabled = false
@@ -816,8 +798,8 @@ local function FNXL_fake_script() -- HeadESP.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FNXL_fake_script)()
-local function LYNN_fake_script() -- LineESP.LocalScript 
+coroutine.wrap(KFMBWY_fake_script)()
+local function VPIYBXV_fake_script() -- LineESP.LocalScript 
 	local script = Instance.new('LocalScript', LineESP)
 
 	local enabled = false
@@ -918,8 +900,8 @@ local function LYNN_fake_script() -- LineESP.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LYNN_fake_script)()
-local function HINPJTK_fake_script() -- Beacons.LocalScript 
+coroutine.wrap(VPIYBXV_fake_script)()
+local function XRUC_fake_script() -- Beacons.LocalScript 
 	local script = Instance.new('LocalScript', Beacons)
 
 	-- LocalScript inside a TextButton
@@ -1019,14 +1001,4 @@ local function HINPJTK_fake_script() -- Beacons.LocalScript
 	end)
 	
 end
-coroutine.wrap(HINPJTK_fake_script)()
-local function WHBFYF_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
-
-	wait(3)
-	game:GetService("TweenService"):Create(script.Parent,TweenInfo.new(5),{BackgroundTransparency = 1}):Play()
-	game:GetService("TweenService"):Create(script.Parent.ImageButton,TweenInfo.new(5),{ImageTransparency = 1}):Play()
-	wait(5)
-	script.Parent.Parent.Enabled = false
-end
-coroutine.wrap(WHBFYF_fake_script)()
+coroutine.wrap(XRUC_fake_script)()
